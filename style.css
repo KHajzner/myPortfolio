@@ -1,0 +1,98 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+html{
+    color: #3c4157;
+    background-color: antiquewhite;
+    background-image: url('/bgr.jpg');
+    font-family: "Monaco", monospace;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: table;
+    margin: 10px auto 0 auto;
+}
+
+.topnav{
+    background-color: rgba(201, 111, 119, 0.9);
+    text-align: right;
+    padding: 10px;
+}
+.topnav a{
+    text-decoration: none;
+    color: #ffe6f3;
+    padding: 15px;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.topnav a:hover{
+
+    color: #f5afb7;
+    transition: 1s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+img{
+    width: 75%;
+    object-fit: scale-down;
+    border: 10px solid  rgba(255, 255, 255, 0.9);
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.9);
+    display: table;
+    padding: 10px;
+    margin: 125px auto 0 auto;
+    font-size: 30px;
+    width: 85%;
+}
+
+.container {
+    display: flex;
+
+}
+
+.column {
+    flex: 1;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.column:first-child {
+    margin-right: 20px;
+}
+.title{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.85);
+    display: inline;
+    margin: 90px -40px 0 0;
+    padding: 5px 10px 5px 10px;
+
+}
+
+footer a{
+    color: #3c4157;
+    bottom:0;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 100%;
+    display: table;
+}
+footer a:hover{
+    color: #222639;
+    transition: 0.5s;
+}
