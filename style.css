@@ -18,6 +18,7 @@ a {
 }
 a:hover{
     color: #ad515a;
+    transition: 0.4s;
 }
 h1{
     padding: 15px;
@@ -101,11 +102,7 @@ img{
     padding: 10px 20px 10px 20px;
 
 }
-#copyright{
-    padding-bottom: 10px;
-    font-size: 15px;
 
-}
 #contact{
     margin-top: 50px;
     text-align: left;
@@ -136,6 +133,14 @@ h5{
     border-radius: 2px;
 
 }
+#more{
+    display: none;
+}
+#moreButton{
+    cursor: pointer;
+}
+
+/* footer */
 footer a{
     color: #3c4157;
     margin-left: 20px;
@@ -157,4 +162,9 @@ footer{
 footer a:hover{
     color: #222639;
     transition: 0.5s;
+}
+#copyright{
+    padding-bottom: 10px;
+    font-size: 15px;
+
 }
