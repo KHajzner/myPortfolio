@@ -11,15 +11,17 @@ html{
     font-family: "Monaco", monospace;
     height: 100%;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 a {
     text-decoration: none;
 }
 h1{
     padding: 15px;
-    background-color: #f2ebed;
+    background-color: rgba(255,255,255, 0.8);
     display: table;
+    font-size: 60px;
+    font-weight: bolder;
     margin: 10px auto 0 auto;
 }
 
@@ -44,6 +46,12 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+.text{
+    text-align: left;
+    width: 40%;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
 }
 img{
     height: 95%;
@@ -78,7 +86,8 @@ img{
     margin-right: 20px;
 }
 .title{
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: bolder;
     background-color: rgba(255,255,255, 0.8);
     border-radius: 3px;
     display: inline;
