@@ -19,6 +19,8 @@ a {
 h1{
     padding: 15px;
     background-color: rgba(255,255,255, 0.8);
+    border-bottom: 5px solid  rgba(242, 235, 237, 1);
+
     display: table;
     font-size: 60px;
     font-weight: bolder;
@@ -89,6 +91,7 @@ img{
     font-size: 60px;
     font-weight: bolder;
     background-color: rgba(255,255,255, 0.8);
+    border-bottom: 5px solid  rgba(242, 235, 237, 1);
     border-radius: 3px;
     display: inline;
     margin: 90px -40px 0 0;
